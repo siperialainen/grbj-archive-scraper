@@ -1,0 +1,21 @@
+{
+  "name": "siperialainen/grbj-archive-scraper",
+  "description": "GRBJ Archive Scraper extracts news from archive of http://grbj.com and returns structured results",
+  "type": "library",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Dmitry Evdokimov",
+      "email": "dmitry.evdokimov@nibiru.pro"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "siperialainen\\": "src/"
+    }
+  }
+}
